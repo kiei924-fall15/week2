@@ -2,7 +2,7 @@ body {
   margin-top: 30px;
 }
 .navbar-inverse .navbar-brand {
-  font-family: arial;
+  font-family: 'Luckiest Guy', arial, cursive;
   font-size: 36px;
   color: #ff3061;
   padding-top: 20px;
@@ -20,12 +20,15 @@ h2 {
   padding: 4px;
   vertical-align: middle;
 }
-.summary h2, .actors h2 {
-  margin-top: 0;
-}
 .actors li {
   line-height: 24px;
 }
 .review {
   margin-bottom: 30px;
+}
+.fa-star, .fa-star-half {
+  color: red;
+}
+.summary-title {
+  margin-top: 40px;
 }
